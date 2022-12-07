@@ -1,0 +1,27 @@
+{
+  "name": "postcsswithkyle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build:css": "postcss styles.css --dir dest",
+    "watch:css": "postcss styles.css --dir dest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulthomas2107/postCSSWithKyle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulthomas2107/postCSSWithKyle/issues"
+  },
+  "homepage": "https://github.com/paulthomas2107/postCSSWithKyle#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^7.8.3"
+  }
+}
